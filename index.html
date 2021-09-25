@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ahorrADAs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/bf812b2e24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Inicio Barra de Navegacion -->
+
+    <nav class="navbar has-shadow is-spaced is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <i class="fas fa-wallet fa-3x" style="color:white"> AhorrADAs</i>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="navbar-item">
+                    <i class="fas fa-chart-line mr-2" style="color: white;" aria-hidden="true"> Balance</i>
+                </a>
+                <a class="navbar-item">
+                    <i class="fas fa-tag mr-2"style="color: white;" aria-hidden="true"> Categorias</i>
+                </a>
+                <a class="navbar-item">
+                    <i class="fas fa-chart-pie mr-2" style="color: white;" aria-hidden="true"> Reportes</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Fin Barra de Navegacion -->
+      <!-- Inicio de la seccion Balance -->
+      <section class="section">
+        <div class="columns">
+          <div class="column is-offset-1 is-3">
+            <article class="box">
+              <h3 class="title is-3">Balance</h3>
+              <div class="columns">
+                <div class="column is-6">
+                  <p class="notification">Ganancias</p>
+                  <p class="notification">Gastos</p>
+                  <p class="notification">Total</p>
+                </div>
+                <div class="column is-6">
+                  <p class="notification has-text-right">0</p>
+                  <p class="notification has-text-right">0</p>
+                  <p class="notification has-text-right">0</p>
+                </div>
+              </div>
+            </article>
+      <!-- Fin de la seccion Balance -->
+      <!-- Inicio de la seccion Filtros -->
+            <article class="box">
+                <h3 class="title is-3">Filtros</h3>
+                <div class="field">
+                  <label class="label">Tipo</label>
+                  <div class="control has-icons-left">
+                      <div class="select is-fullwidth">
+                      <select>
+                        <option>Todos</option>
+                        <option>Gasto</option>
+                        <option>Ganancia</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Categoría</label>
+                  <div class="control has-icons-left">
+                      <div class="select is-fullwidth">
+                      <select>
+                        <option>Todas</option>
+                        <option>Comida</option>
+                        <option>Servicios</option>
+                        <option>Salidas</option>
+                        <option>Educación</option>
+                        <option>Transporte</option>
+                        <option>Trabajo</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label" for="filtro-fecha">Desde</label>
+                  <div class="control">
+                    <div class="is-fullwidth">
+                      <input class="input" type="date">
+                    </div>
+                  </div>
+
+                </div>
+                <div class="field">
+                  <label class="label">Ordenar por</label>
+                  <div class="control has-icons-left">
+                      <div class="select is-fullwidth">
+                      <select>
+                        <option>Más reciente</option>
+                        <option>Menos reciente</option>
+                        <option>Mayor monto</option>
+                        <option>Menor monto</option>
+                        <option>A/Z</option>
+                        <option>Z/A</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </article>
+        <!-- Fin de la seccion Filtros -->
+          </div>
+          <!-- Inicio de la seccion Operaciones -->
+          <div class="column is-7">
+            
+            <div class="box"> 
+              <h1 class="title is-3">Operaciones</h1>
+    
+              <div class="columns">
+                <div class="column is-offset-3 is-6">
+                  
+                  <div class="image">
+                    <img src="Imagenes/undraw_wallet_aym5.svg" class="alt">
+                  </div>
+                  <div>
+                    <h4 class="is-size-4 has-text-centered">Sin Resultados</h4>
+                    <p class="has-text-centered">Cambia los filtros o agrega operaciones</p>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+    </body>
+    </html>
